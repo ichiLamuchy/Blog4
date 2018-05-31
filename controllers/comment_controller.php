@@ -14,8 +14,8 @@ class CommentController {
       }
       else {     
             Comment::add();
-
-            header('Location: index.php?controller=post&action=show&post_id=' . $_GET['post_id']);
+            $comments = Comment::all($_GET['post_id']);
+            require_once('views/comments/viewAll_comment.php');
       }
     }
 
