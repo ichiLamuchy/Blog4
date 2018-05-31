@@ -21,7 +21,7 @@
                                     <?= $comment->user->last_name ?>
                             </b>
                         </a>
-                        made a post.
+                        made a comment.
                     </div>
                     <h6 class="text-muted time">
                         <?= (new DateTime($comment->created_at))->format('d F Y H:i') ?>

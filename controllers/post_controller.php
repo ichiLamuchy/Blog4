@@ -76,7 +76,7 @@ class PostController {
             require_once('views/posts/update_post.php');
         }
         else {
-            $id = $_GET['post_id'];
+            $id = $_POST['post_id'];
             Post::update($id);
             //call('blog', 'show'); potencially 
             call('blog', 'viewAll'); 
