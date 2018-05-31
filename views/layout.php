@@ -138,7 +138,7 @@ session_start();
                 <?= date('Y'); ?>
                     <!--   Copyright &COPY; <?= date('Y'); ?> -->
                     
-                    <?php                                    print_r($_SESSION) ?>
+                    <?php        //                            print_r($_SESSION) ?>
                     
             </footer>
         </div>
