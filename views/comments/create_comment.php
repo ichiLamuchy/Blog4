@@ -1,9 +1,3 @@
-<?php
-
-/* 
- * form for comment - need to be shown within showpost if possible
- */
-?>
 <style>
     .comment_body  { 
        font-size: 20px;

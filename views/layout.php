@@ -1,28 +1,22 @@
 <?php
 /*
- * Copied from peters PHP
- * please change as you like
+ * Entry point
  */
 
 session_start();
 ?>
 
-    <!DOCTYPE html>
-    <html>
-
+<!DOCTYPE html>
+<html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <link rel="stylesheet" href="views/css/main.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <?php include_once("head.php") ?>
         <!-- 
         [if lt IE 9]
 
-     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-
-     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
         [endif]
         -->
@@ -126,11 +120,10 @@ session_start();
             ?>
 
                 <div class="blog-content-container">
-                    <?php
+                <?php
                 require_once('routes.php');
                 ?>
                 </div>
-                <!--end of php-->
         </div>
         <div class="footer w3-text-dark-gray">
             <footer>
@@ -209,5 +202,4 @@ session_start();
             });
         </script>
     </body>
-
-    </html>
+</html>

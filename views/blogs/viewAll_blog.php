@@ -1,14 +1,3 @@
-
-<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<?php
-// leave this in
-// if (!empty($_SESSION['username'])) {
-//     echo "Hello, you are logged in as " . $_SESSION['username'] . '<br>';
-//     echo '<br>';
-// }
-?> 
-
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
 <div>
